@@ -13,6 +13,7 @@ for x in range(0, series):
     c = a
     d = b
 
+    # My algorithm
     while a != b:
         i += 1
         if a > b:
@@ -23,6 +24,7 @@ for x in range(0, series):
     print("Number of iterations:", i)
     print("Final a + b =", a+b, "\n")
 
+    # MYR algorithm
     i = 0
     while True:
         if c == d or c == 0 or d == 0:
