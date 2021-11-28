@@ -2,12 +2,11 @@
 
 import re
 
-my_email = str(input("Type your email address:"))
-my_password = input("Type your password:")
+my_email = input("Type your email address: ")
+my_password = input("Type your password: ")
 
 
 def email_check(email_address):
-    print(email_address)
     if re.fullmatch("[a-zA-Z0-9_.-]*@[a-zA-Z0-9_.-]*\\.[a-z]{2,5}", email_address):
         print("Correct email format")
     else:
@@ -15,7 +14,6 @@ def email_check(email_address):
 
 
 def password_check(password):
-    print(password)
     check_lc = re.search("[a-z]+", password)
     check_uc = re.search("[A-Z]+", password)
     check_num = re.search("[0-9]+", password)
