@@ -19,6 +19,22 @@ for x in range(0, series):
             a = a - b
         else:
             b = b - a
+    print("My algorithm")
     print("Number of iterations:", i)
     print("Final a + b =", a+b)
+    print("")
+
+    i = 0
+    while True:
+        if c == d or c == 0 or d == 0:
+            break
+        else:
+            if c > d:
+                c = c - d
+            else:
+                d = d - c
+        i += 1
+    print("MYR algorithm")
+    print("Number of iterations:", i)
+    print("Final a + b =", c + d)
     print("")
