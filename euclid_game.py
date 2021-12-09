@@ -24,7 +24,7 @@ for x in range(0, series):
     print("Number of iterations:", i)
     print("Final a + b =", a+b, "\n")
 
-    # MYR algorithm
+    # MAP algorithm
     i = 0
     while True:
         if c == d or c == 0 or d == 0:
@@ -35,6 +35,6 @@ for x in range(0, series):
             else:
                 d = d - c
         i += 1
-    print("MYR algorithm")
+    print("MAP algorithm")
     print("Number of iterations:", i)
     print("Final a + b =", c + d, "\n")
